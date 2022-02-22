@@ -27,10 +27,11 @@ Math.ceil(Math.random() * 6); --> náhodné čísla medzi 0 až 1, následne vyn
 Math.floor(Math.random() * 6 + 1); --> 
 */
 
-let zprava = document.querySelector('#zprava')
-let kostka = document.querySelector('#kostka')
+/*Riešenie!!!
 
 function hodKockou() {
+  let zprava = document.querySelector('#zprava')
+  let kostka = document.querySelector('#kostka')
   let hod = Math.floor(Math.random() * 6 + 1);
   if (hod === 6) {
   zprava.textContent = 'Vyhral si! :)';
@@ -40,6 +41,7 @@ function hodKockou() {
 
   kostka.src = 'obrazky/' + hod + '.png';
 }
+*/
 
 /*Môj pokus
 function hodKockou() {
@@ -71,3 +73,5 @@ function zmenFotku() {
     document.getElementById('kostka').src=a.src;
   };  
 };*/
+
+
